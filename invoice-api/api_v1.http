@@ -1,0 +1,30 @@
+### Get invoices
+GET http://localhost:8000/api/v1/invoices
+
+### Create new invoice
+POST http://localhost:8000/api/v1/invoices
+Content-Type: application/json
+
+{
+  "name": "John Doe 99",
+  "email": "john@doe.com",
+  "address": "123 Main St",
+  "city": "New York",
+  "zipCode": "12345",
+  "country": "USA",
+  "date": "2023-01-01",
+  "paymentTerms": "15",
+  "description": "Lorem ipsum dolor sit amet",
+  "items": [
+    {
+      "name": "Item 1",
+      "quantity": 5,
+      "price": 10
+    },
+    {
+      "name": "Item 2",
+      "quantity": 3,
+      "price": 50
+    }
+  ]
+}

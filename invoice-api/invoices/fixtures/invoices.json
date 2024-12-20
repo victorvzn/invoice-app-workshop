@@ -1,0 +1,4693 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$PYETTqAwu6wErI8316xU97$hNwYBRtVtz8nsw5vzkKAxMmwrKfQrAXLJFyUrO0GUH0=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@admin.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-12-20T15:09:43.265Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 1,
+        "fields": {
+            "name": "Lewis Ltd",
+            "email": "info@lewisltd.com",
+            "address": "0148 Harry Vista Suite 039\nPort Lori, MO 10585",
+            "city": "Franciscobury",
+            "zipCode": "74778",
+            "country": "Syrian Arab Republic"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 2,
+        "fields": {
+            "name": "Rhodes-Fernandez",
+            "email": "info@rhodesfe.com",
+            "address": "185 Connor Fort\nWest Cassiefurt, MD 04384",
+            "city": "Kristenmouth",
+            "zipCode": "64805",
+            "country": "Denmark"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 3,
+        "fields": {
+            "name": "Tran-Bennett",
+            "email": "info@tranbenn.com",
+            "address": "94311 Moore Station Apt. 655\nNorth Adamport, MN 35859",
+            "city": "East Christopherchester",
+            "zipCode": "59331",
+            "country": "Micronesia"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 4,
+        "fields": {
+            "name": "Hunt, Garcia and Davis",
+            "email": "info@huntgarc.com",
+            "address": "0466 Jenny Points Apt. 982\nJacksonview, KY 65135",
+            "city": "North Gary",
+            "zipCode": "36671",
+            "country": "Italy"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 5,
+        "fields": {
+            "name": "Washington-Jones",
+            "email": "info@washingt.com",
+            "address": "799 Stephen Dale\nAdamfurt, RI 50293",
+            "city": "Scottchester",
+            "zipCode": "85833",
+            "country": "Nauru"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 6,
+        "fields": {
+            "name": "Evans PLC",
+            "email": "info@evansplc.com",
+            "address": "USNS Mendoza\nFPO AE 52699",
+            "city": "Kellyfort",
+            "zipCode": "75982",
+            "country": "Slovenia"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 7,
+        "fields": {
+            "name": "Nguyen LLC",
+            "email": "info@nguyenll.com",
+            "address": "1939 Erin Plaza Apt. 737\nMarieland, WY 54128",
+            "city": "Taylorport",
+            "zipCode": "32223",
+            "country": "El Salvador"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 8,
+        "fields": {
+            "name": "Moore, Henderson and Bennett",
+            "email": "info@moorehen.com",
+            "address": "688 Stephens Turnpike Suite 891\nPort Johnstad, SD 80805",
+            "city": "New Tonyafurt",
+            "zipCode": "99156",
+            "country": "Greenland"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 9,
+        "fields": {
+            "name": "Rodriguez-Garcia",
+            "email": "info@rodrigue.com",
+            "address": "5679 Michael Burg\nGarciachester, CO 15714",
+            "city": "West Larry",
+            "zipCode": "60182",
+            "country": "Slovenia"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 10,
+        "fields": {
+            "name": "Boyd LLC",
+            "email": "info@boydllc.com",
+            "address": "751 Williams Station Apt. 051\nLake John, OH 21490",
+            "city": "Anitamouth",
+            "zipCode": "30890",
+            "country": "South Georgia and the South Sandwich Islands"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 11,
+        "fields": {
+            "name": "Soto-Lopez",
+            "email": "info@sotolope.com",
+            "address": "93796 Smith Forest Apt. 419\nPort Monicaburgh, MD 26331",
+            "city": "Wilsonfort",
+            "zipCode": "69669",
+            "country": "Northern Mariana Islands"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 12,
+        "fields": {
+            "name": "Harper-Carr",
+            "email": "info@harperca.com",
+            "address": "7924 Emily Island Apt. 341\nWest Heather, MS 55320",
+            "city": "New Patrick",
+            "zipCode": "24848",
+            "country": "Libyan Arab Jamahiriya"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 13,
+        "fields": {
+            "name": "Medina, Ellison and Arias",
+            "email": "info@medinael.com",
+            "address": "4225 Harvey Way\nStephaniefort, ID 50825",
+            "city": "Ortizfort",
+            "zipCode": "54978",
+            "country": "Russian Federation"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 14,
+        "fields": {
+            "name": "Burns-Miller",
+            "email": "info@burnsmil.com",
+            "address": "0438 Jackson Mount\nDunnville, DE 35613",
+            "city": "Amberton",
+            "zipCode": "94739",
+            "country": "Kazakhstan"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 15,
+        "fields": {
+            "name": "Robinson, Coleman and Fitzgerald",
+            "email": "info@robinson.com",
+            "address": "0745 Scott Crest\nEast Lisa, UT 46458",
+            "city": "Martinberg",
+            "zipCode": "27583",
+            "country": "Suriname"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 16,
+        "fields": {
+            "name": "Trujillo PLC",
+            "email": "info@trujillo.com",
+            "address": "825 Roberts Grove Apt. 260\nMichelleberg, DC 33226",
+            "city": "Lake Marc",
+            "zipCode": "32948",
+            "country": "Senegal"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 17,
+        "fields": {
+            "name": "Long, Thomas and Chen",
+            "email": "info@longthom.com",
+            "address": "1168 Neal Wells Suite 775\nPort Kimland, NH 83710",
+            "city": "Melissaside",
+            "zipCode": "52630",
+            "country": "Cuba"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 18,
+        "fields": {
+            "name": "Summers-Simpson",
+            "email": "info@summerss.com",
+            "address": "8929 Kramer Springs Apt. 017\nNorth Sarahburgh, NH 00589",
+            "city": "Harrisberg",
+            "zipCode": "85697",
+            "country": "Gabon"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 19,
+        "fields": {
+            "name": "Baxter LLC",
+            "email": "info@baxterll.com",
+            "address": "1520 Garrett Stream Apt. 611\nEast Thomasberg, IN 68585",
+            "city": "Smithmouth",
+            "zipCode": "16307",
+            "country": "Tokelau"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 20,
+        "fields": {
+            "name": "Benson-Woods",
+            "email": "info@bensonwo.com",
+            "address": "115 Ibarra Dam\nAyalaberg, TX 19225",
+            "city": "New Annaburgh",
+            "zipCode": "58185",
+            "country": "Guernsey"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 21,
+        "fields": {
+            "name": "Lewis, Goodman and Gillespie",
+            "email": "info@lewisgoo.com",
+            "address": "11219 Bell Meadow Suite 234\nEast Angelaport, UT 04016",
+            "city": "Jamiehaven",
+            "zipCode": "25227",
+            "country": "San Marino"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 22,
+        "fields": {
+            "name": "Phillips-Brown",
+            "email": "info@phillips.com",
+            "address": "PSC 3761, Box 3791\nAPO AP 02082",
+            "city": "Sarahberg",
+            "zipCode": "51204",
+            "country": "Tokelau"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 23,
+        "fields": {
+            "name": "Fisher, Payne and Thompson",
+            "email": "info@fisherpa.com",
+            "address": "91043 Sandra Turnpike\nHunterhaven, MT 56019",
+            "city": "Millerside",
+            "zipCode": "70972",
+            "country": "New Zealand"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 24,
+        "fields": {
+            "name": "Ramirez LLC",
+            "email": "info@ramirezl.com",
+            "address": "85691 Hale Stream\nNorth John, DE 59925",
+            "city": "West Elizabethburgh",
+            "zipCode": "16156",
+            "country": "American Samoa"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 25,
+        "fields": {
+            "name": "Taylor, Smith and Crawford",
+            "email": "info@taylorsm.com",
+            "address": "52410 Roman Groves Apt. 491\nGibsonstad, NM 74803",
+            "city": "West Eric",
+            "zipCode": "13988",
+            "country": "Uganda"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 26,
+        "fields": {
+            "name": "Craig, Wilson and Yang",
+            "email": "info@craigwil.com",
+            "address": "07562 Sarah Walks\nNew Lindachester, MD 33041",
+            "city": "Moonmouth",
+            "zipCode": "36055",
+            "country": "Sweden"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 27,
+        "fields": {
+            "name": "Duncan Inc",
+            "email": "info@duncanin.com",
+            "address": "38061 Cline Trail\nMarkside, AL 48855",
+            "city": "West Anne",
+            "zipCode": "40335",
+            "country": "Saint Vincent and the Grenadines"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 28,
+        "fields": {
+            "name": "Sanchez, Richardson and Bonilla",
+            "email": "info@sanchezr.com",
+            "address": "Unit 3832 Box 0603\nDPO AP 45907",
+            "city": "West Aaronfurt",
+            "zipCode": "97242",
+            "country": "Saint Lucia"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 29,
+        "fields": {
+            "name": "Garcia-Moreno",
+            "email": "info@garciamo.com",
+            "address": "24103 Haynes Landing Suite 191\nLake Lori, OR 74926",
+            "city": "South Elaineberg",
+            "zipCode": "31535",
+            "country": "French Guiana"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 30,
+        "fields": {
+            "name": "Rosales-Howe",
+            "email": "info@rosalesh.com",
+            "address": "7431 Derek Trail Apt. 212\nOwenschester, ND 47462",
+            "city": "South Kyle",
+            "zipCode": "35236",
+            "country": "Timor-Leste"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 31,
+        "fields": {
+            "name": "Davis Ltd",
+            "email": "info@davisltd.com",
+            "address": "52135 Palmer Springs\nJorgeburgh, MO 59771",
+            "city": "North Steven",
+            "zipCode": "18823",
+            "country": "British Virgin Islands"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 32,
+        "fields": {
+            "name": "Brown and Sons",
+            "email": "info@brownand.com",
+            "address": "1994 Andrew Circles Apt. 721\nDavidmouth, GA 75721",
+            "city": "Underwoodfurt",
+            "zipCode": "65529",
+            "country": "Antarctica (the territory South of 60 deg S)"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 33,
+        "fields": {
+            "name": "Vega-Thompson",
+            "email": "info@vegathom.com",
+            "address": "4720 Deborah Parks\nAndradefort, CO 37171",
+            "city": "Taylorborough",
+            "zipCode": "84734",
+            "country": "Turks and Caicos Islands"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 34,
+        "fields": {
+            "name": "Wright, Mcknight and Stephens",
+            "email": "info@wrightmc.com",
+            "address": "578 Cooper Port Suite 642\nWest Carlatown, WI 37323",
+            "city": "Port Victoriahaven",
+            "zipCode": "47350",
+            "country": "Seychelles"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 35,
+        "fields": {
+            "name": "Key, Dickson and Garcia",
+            "email": "info@keydicks.com",
+            "address": "039 Kelly Villages Apt. 239\nLindastad, OR 04198",
+            "city": "Staceyshire",
+            "zipCode": "19126",
+            "country": "Monaco"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 36,
+        "fields": {
+            "name": "Copeland Group",
+            "email": "info@copeland.com",
+            "address": "0103 Andrew Neck\nWest Samanthaborough, DC 45164",
+            "city": "Port Megan",
+            "zipCode": "42914",
+            "country": "Bahamas"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 37,
+        "fields": {
+            "name": "Hernandez Ltd",
+            "email": "info@hernande.com",
+            "address": "PSC 1851, Box 5691\nAPO AA 40053",
+            "city": "Derekburgh",
+            "zipCode": "96491",
+            "country": "Yemen"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 38,
+        "fields": {
+            "name": "Conner-Yu",
+            "email": "info@conneryu.com",
+            "address": "895 Elizabeth Via\nSouth Kurt, LA 17192",
+            "city": "Lake Aaron",
+            "zipCode": "92514",
+            "country": "Yemen"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 39,
+        "fields": {
+            "name": "Myers, Gamble and Sanford",
+            "email": "info@myersgam.com",
+            "address": "391 Taylor Summit Apt. 355\nLake Nicole, VT 88322",
+            "city": "Seanview",
+            "zipCode": "27984",
+            "country": "Egypt"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 40,
+        "fields": {
+            "name": "Jones, Scott and Rodriguez",
+            "email": "info@jonessco.com",
+            "address": "6267 Bell Lane Apt. 793\nSouth Charles, AZ 39155",
+            "city": "West Joseville",
+            "zipCode": "10226",
+            "country": "Guam"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 41,
+        "fields": {
+            "name": "Barron and Sons",
+            "email": "info@barronan.com",
+            "address": "9970 Dunlap Expressway\nMooreville, IL 25402",
+            "city": "Terryside",
+            "zipCode": "35269",
+            "country": "Panama"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 42,
+        "fields": {
+            "name": "Evans-Davis",
+            "email": "info@evansdav.com",
+            "address": "05061 Colon Road Suite 310\nEast Danielle, NJ 15640",
+            "city": "Kristenfort",
+            "zipCode": "64607",
+            "country": "Ukraine"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 43,
+        "fields": {
+            "name": "Baker, May and Hughes",
+            "email": "info@bakermay.com",
+            "address": "2704 Marshall Fork Suite 902\nNorth Elizabethside, WV 77797",
+            "city": "New Bruce",
+            "zipCode": "51239",
+            "country": "Svalbard & Jan Mayen Islands"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 44,
+        "fields": {
+            "name": "Barnes, Nichols and Camacho",
+            "email": "info@barnesni.com",
+            "address": "4160 David Throughway\nThompsonburgh, ID 17040",
+            "city": "South Christianchester",
+            "zipCode": "26966",
+            "country": "Swaziland"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 45,
+        "fields": {
+            "name": "Hernandez, Larson and Flores",
+            "email": "info@hernande.com",
+            "address": "68685 Stone Well\nPort Isabellashire, WY 55498",
+            "city": "South Edwardshire",
+            "zipCode": "77562",
+            "country": "Mozambique"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 46,
+        "fields": {
+            "name": "Buckley PLC",
+            "email": "info@buckleyp.com",
+            "address": "564 Pena Ports Suite 024\nThomasfurt, MO 43950",
+            "city": "North Julie",
+            "zipCode": "35704",
+            "country": "Ukraine"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 47,
+        "fields": {
+            "name": "Smith-Roth",
+            "email": "info@smithrot.com",
+            "address": "1324 Schroeder Islands Suite 691\nSouth Jason, MT 97618",
+            "city": "Malonestad",
+            "zipCode": "07868",
+            "country": "Malawi"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 48,
+        "fields": {
+            "name": "Jones Ltd",
+            "email": "info@jonesltd.com",
+            "address": "902 Nancy Flats\nEast Antonioton, MN 92858",
+            "city": "West Micheal",
+            "zipCode": "61347",
+            "country": "Macedonia"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 49,
+        "fields": {
+            "name": "Reid-Martinez",
+            "email": "info@reidmart.com",
+            "address": "9727 Cooper Villages Suite 140\nWilliamsshire, IL 29513",
+            "city": "Lake Jamie",
+            "zipCode": "85905",
+            "country": "Ireland"
+        }
+    },
+    {
+        "model": "invoices.client",
+        "pk": 50,
+        "fields": {
+            "name": "Smith, Deleon and Saunders",
+            "email": "info@smithdel.com",
+            "address": "290 Johnny Valley\nJenniferview, MS 46207",
+            "city": "Kingmouth",
+            "zipCode": "40103",
+            "country": "Philippines"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 1,
+        "fields": {
+            "name": "Innovative logistical project",
+            "quantity": 1,
+            "price": "173.80"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 2,
+        "fields": {
+            "name": "Assimilated analyzing matrices",
+            "quantity": 3,
+            "price": "1262.21"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 3,
+        "fields": {
+            "name": "Open-architected interactive software",
+            "quantity": 2,
+            "price": "3695.53"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 4,
+        "fields": {
+            "name": "Customer-focused mobile structure",
+            "quantity": 5,
+            "price": "480.35"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 5,
+        "fields": {
+            "name": "Organic asynchronous artificial intelligence",
+            "quantity": 4,
+            "price": "207.32"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 6,
+        "fields": {
+            "name": "Inverse real-time circuit",
+            "quantity": 1,
+            "price": "1132.26"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 7,
+        "fields": {
+            "name": "Cloned clear-thinking focus group",
+            "quantity": 5,
+            "price": "3029.99"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 8,
+        "fields": {
+            "name": "Secured scalable paradigm",
+            "quantity": 5,
+            "price": "1034.25"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 9,
+        "fields": {
+            "name": "Reactive transitional Graphic Interface",
+            "quantity": 5,
+            "price": "2126.62"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 10,
+        "fields": {
+            "name": "Multi-tiered radical moderator",
+            "quantity": 4,
+            "price": "2966.87"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 11,
+        "fields": {
+            "name": "Implemented logistical middleware",
+            "quantity": 1,
+            "price": "3806.10"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 12,
+        "fields": {
+            "name": "Robust intermediate attitude",
+            "quantity": 2,
+            "price": "3505.79"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 13,
+        "fields": {
+            "name": "Total bifurcated projection",
+            "quantity": 3,
+            "price": "1425.46"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 14,
+        "fields": {
+            "name": "Streamlined zero administration neural-net",
+            "quantity": 2,
+            "price": "4788.20"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 15,
+        "fields": {
+            "name": "Up-sized didactic Internet solution",
+            "quantity": 3,
+            "price": "555.94"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 16,
+        "fields": {
+            "name": "Organized discrete installation",
+            "quantity": 4,
+            "price": "528.75"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 17,
+        "fields": {
+            "name": "Mandatory logistical initiative",
+            "quantity": 3,
+            "price": "3038.44"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 18,
+        "fields": {
+            "name": "Operative upward-trending attitude",
+            "quantity": 1,
+            "price": "3662.17"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 19,
+        "fields": {
+            "name": "Intuitive interactive functionalities",
+            "quantity": 5,
+            "price": "667.89"
+        }
+    },
+    {
+        "model": "invoices.invoiceitem",
+        "pk": 20,
+        "fields": {
+            "name": "Synchronized eco-centric hub",
+            "quantity": 4,
+            "price": "440.06"
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 1,
+        "fields": {
+            "date": "2024-10-26",
+            "paymentTerms": 60,
+            "description": "However bill memory production successful hear positive participant fear blue as write political.",
+            "status": "paid",
+            "client": 21,
+            "items": [
+                13,
+                17,
+                1
+            ],
+            "total": 13565.5
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 2,
+        "fields": {
+            "date": "2024-09-14",
+            "paymentTerms": 30,
+            "description": "Prevent weight prepare could military drive arm tax special.",
+            "status": "pending",
+            "client": 27,
+            "items": [
+                7,
+                17,
+                12
+            ],
+            "total": 31276.85
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 3,
+        "fields": {
+            "date": "2024-07-20",
+            "paymentTerms": 30,
+            "description": "Race return pretty young else industry home along remain occur.",
+            "status": "paid",
+            "client": 29,
+            "items": [
+                7,
+                9,
+                18
+            ],
+            "total": 29445.22
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 4,
+        "fields": {
+            "date": "2024-06-10",
+            "paymentTerms": 30,
+            "description": "Risk develop movement size trade public medical suddenly subject theory.",
+            "status": "draft",
+            "client": 45,
+            "items": [
+                4,
+                1,
+                8,
+                6,
+                10,
+                9
+            ],
+            "total": 31379.64
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 5,
+        "fields": {
+            "date": "2024-09-09",
+            "paymentTerms": 60,
+            "description": "Best campaign else space several consumer quite friend become.",
+            "status": "paid",
+            "client": 15,
+            "items": [
+                15,
+                4,
+                5
+            ],
+            "total": 4898.85
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 6,
+        "fields": {
+            "date": "2024-08-18",
+            "paymentTerms": 60,
+            "description": "Season film small former end family surface like.",
+            "status": "pending",
+            "client": 33,
+            "items": [
+                9,
+                14,
+                16,
+                18,
+                8,
+                17,
+                20,
+                3
+            ],
+            "total": 49424.54
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 7,
+        "fields": {
+            "date": "2024-11-29",
+            "paymentTerms": 60,
+            "description": "Want author threat matter test high fear approach take case customer important notice.",
+            "status": "paid",
+            "client": 48,
+            "items": [
+                3,
+                9,
+                14,
+                11
+            ],
+            "total": 31406.66
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 8,
+        "fields": {
+            "date": "2024-09-23",
+            "paymentTerms": 30,
+            "description": "First resource single maintain piece computer play.",
+            "status": "paid",
+            "client": 1,
+            "items": [
+                10,
+                19,
+                16,
+                5,
+                15
+            ],
+            "total": 19819.03
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 9,
+        "fields": {
+            "date": "2024-07-01",
+            "paymentTerms": 30,
+            "description": "Event seven collection share majority shake because pass plant idea whole.",
+            "status": "draft",
+            "client": 36,
+            "items": [
+                13,
+                15,
+                11,
+                7,
+                8,
+                10,
+                17
+            ],
+            "total": 51054.3
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 10,
+        "fields": {
+            "date": "2024-12-19",
+            "paymentTerms": 30,
+            "description": "Also current health add focus street.",
+            "status": "draft",
+            "client": 21,
+            "items": [
+                16,
+                13,
+                19,
+                5,
+                20,
+                1,
+                3,
+                9
+            ],
+            "total": 30518.31
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 11,
+        "fields": {
+            "date": "2024-11-10",
+            "paymentTerms": 30,
+            "description": "Quality phone eat really general can.",
+            "status": "pending",
+            "client": 29,
+            "items": [
+                17,
+                15,
+                1
+            ],
+            "total": 10956.94
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 12,
+        "fields": {
+            "date": "2024-09-19",
+            "paymentTerms": 30,
+            "description": "Open cold statement fear fact road others full thousand yet garden top.",
+            "status": "pending",
+            "client": 10,
+            "items": [
+                16,
+                9,
+                11
+            ],
+            "total": 16554.2
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 13,
+        "fields": {
+            "date": "2024-09-18",
+            "paymentTerms": 15,
+            "description": "Close trade speech affect difference world deep against.",
+            "status": "pending",
+            "client": 6,
+            "items": [
+                18,
+                13,
+                11,
+                16,
+                2
+            ],
+            "total": 17646.28
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 14,
+        "fields": {
+            "date": "2024-08-25",
+            "paymentTerms": 60,
+            "description": "But represent society heart policy side perhaps order.",
+            "status": "paid",
+            "client": 44,
+            "items": [
+                8,
+                3,
+                14,
+                4,
+                17
+            ],
+            "total": 33655.78
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 15,
+        "fields": {
+            "date": "2024-08-03",
+            "paymentTerms": 30,
+            "description": "President after ready indicate herself natural listen.",
+            "status": "draft",
+            "client": 2,
+            "items": [
+                11,
+                2,
+                10
+            ],
+            "total": 19460.21
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 16,
+        "fields": {
+            "date": "2024-11-08",
+            "paymentTerms": 60,
+            "description": "Receive piece feeling product production establish paper case.",
+            "status": "pending",
+            "client": 16,
+            "items": [
+                14,
+                19,
+                6,
+                18,
+                17,
+                2,
+                10
+            ],
+            "total": 42479.71
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 17,
+        "fields": {
+            "date": "2024-08-06",
+            "paymentTerms": 15,
+            "description": "Responsibility brother box blood cup current enjoy mission cut region far always.",
+            "status": "paid",
+            "client": 16,
+            "items": [
+                19,
+                5,
+                8,
+                15,
+                9,
+                18
+            ],
+            "total": 25303.07
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 18,
+        "fields": {
+            "date": "2024-12-25",
+            "paymentTerms": 60,
+            "description": "Read lose doctor actually become book off management.",
+            "status": "paid",
+            "client": 19,
+            "items": [
+                18,
+                6,
+                3,
+                15,
+                12,
+                10,
+                5,
+                11
+            ],
+            "total": 37367.75
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 19,
+        "fields": {
+            "date": "2024-08-05",
+            "paymentTerms": 30,
+            "description": "Avoid rich toward popular lead with enough anyone spend them system growth.",
+            "status": "pending",
+            "client": 30,
+            "items": [
+                7,
+                13,
+                16,
+                4,
+                8
+            ],
+            "total": 29114.33
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 20,
+        "fields": {
+            "date": "2024-11-16",
+            "paymentTerms": 15,
+            "description": "School believe serve animal system professional color group just perform there.",
+            "status": "pending",
+            "client": 19,
+            "items": [
+                10,
+                1,
+                13,
+                9,
+                19,
+                20,
+                14,
+                11
+            ],
+            "total": 45432.95
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 21,
+        "fields": {
+            "date": "2024-08-05",
+            "paymentTerms": 60,
+            "description": "Spring consumer husband while even history surface son power someone.",
+            "status": "pending",
+            "client": 48,
+            "items": [
+                10,
+                8,
+                12,
+                19,
+                7,
+                20
+            ],
+            "total": 44299.95
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 22,
+        "fields": {
+            "date": "2024-06-06",
+            "paymentTerms": 30,
+            "description": "Receive around wall city indeed opportunity soon.",
+            "status": "pending",
+            "client": 44,
+            "items": [
+                4,
+                2,
+                10,
+                15
+            ],
+            "total": 19723.68
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 23,
+        "fields": {
+            "date": "2024-07-22",
+            "paymentTerms": 15,
+            "description": "Particularly single particularly television they road through low.",
+            "status": "pending",
+            "client": 9,
+            "items": [
+                10,
+                11,
+                14
+            ],
+            "total": 25249.98
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 24,
+        "fields": {
+            "date": "2024-11-24",
+            "paymentTerms": 30,
+            "description": "Thought key as pressure actually than modern.",
+            "status": "draft",
+            "client": 24,
+            "items": [
+                17,
+                9,
+                6,
+                19,
+                16,
+                13,
+                5
+            ],
+            "total": 31440.79
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 25,
+        "fields": {
+            "date": "2024-12-28",
+            "paymentTerms": 60,
+            "description": "Difference what their mind read peace item risk loss professional political chance step.",
+            "status": "paid",
+            "client": 30,
+            "items": [
+                5,
+                8,
+                13
+            ],
+            "total": 10276.91
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 26,
+        "fields": {
+            "date": "2024-10-30",
+            "paymentTerms": 60,
+            "description": "Activity various measure light many close.",
+            "status": "paid",
+            "client": 6,
+            "items": [
+                1,
+                9,
+                18,
+                4,
+                15,
+                6
+            ],
+            "total": 19670.9
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 27,
+        "fields": {
+            "date": "2024-11-24",
+            "paymentTerms": 60,
+            "description": "Drive wife anyone development poor idea dog learn soon large.",
+            "status": "paid",
+            "client": 38,
+            "items": [
+                12,
+                4,
+                8,
+                16,
+                1,
+                10
+            ],
+            "total": 28740.86
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 28,
+        "fields": {
+            "date": "2024-07-25",
+            "paymentTerms": 15,
+            "description": "Firm wonder seat adult idea along near stay social white point.",
+            "status": "draft",
+            "client": 40,
+            "items": [
+                3,
+                15,
+                10,
+                14
+            ],
+            "total": 30502.76
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 29,
+        "fields": {
+            "date": "2024-08-25",
+            "paymentTerms": 60,
+            "description": "Deal public wear guy approach development lawyer nice people list price respond box.",
+            "status": "pending",
+            "client": 20,
+            "items": [
+                4,
+                20,
+                8,
+                5,
+                13,
+                18
+            ],
+            "total": 18101.07
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 30,
+        "fields": {
+            "date": "2024-08-11",
+            "paymentTerms": 30,
+            "description": "Game stop who factor miss reduce.",
+            "status": "draft",
+            "client": 35,
+            "items": [
+                19,
+                5,
+                14,
+                4,
+                16,
+                10
+            ],
+            "total": 30129.36
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 31,
+        "fields": {
+            "date": "2024-07-03",
+            "paymentTerms": 60,
+            "description": "Manage state score important effect cultural building system.",
+            "status": "paid",
+            "client": 45,
+            "items": [
+                7,
+                15,
+                19,
+                8,
+                12
+            ],
+            "total": 32340.05
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 32,
+        "fields": {
+            "date": "2024-07-11",
+            "paymentTerms": 15,
+            "description": "Station course full serious another plan public but through leader operation.",
+            "status": "pending",
+            "client": 35,
+            "items": [
+                12,
+                2,
+                13,
+                9,
+                7,
+                19,
+                14,
+                8
+            ],
+            "total": 58944.74
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 33,
+        "fields": {
+            "date": "2024-07-25",
+            "paymentTerms": 60,
+            "description": "White above save network item one under.",
+            "status": "draft",
+            "client": 41,
+            "items": [
+                1,
+                2,
+                11,
+                8,
+                5,
+                13,
+                10
+            ],
+            "total": 29910.92
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 34,
+        "fields": {
+            "date": "2024-08-09",
+            "paymentTerms": 15,
+            "description": "Community spring billion price paper focus thing industry participant realize eat huge garden.",
+            "status": "draft",
+            "client": 38,
+            "items": [
+                8,
+                11,
+                5,
+                1
+            ],
+            "total": 9980.43
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 35,
+        "fields": {
+            "date": "2024-08-15",
+            "paymentTerms": 15,
+            "description": "Source catch owner though mention successful natural finish say network design.",
+            "status": "pending",
+            "client": 35,
+            "items": [
+                6,
+                4,
+                1,
+                5,
+                18
+            ],
+            "total": 8199.26
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 36,
+        "fields": {
+            "date": "2024-07-11",
+            "paymentTerms": 30,
+            "description": "Research rather TV car report window concern my PM report set no old.",
+            "status": "pending",
+            "client": 21,
+            "items": [
+                6,
+                9,
+                2
+            ],
+            "total": 15551.99
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 37,
+        "fields": {
+            "date": "2024-11-21",
+            "paymentTerms": 15,
+            "description": "Experience suggest space mission agent certainly prove customer seek claim expert economy.",
+            "status": "pending",
+            "client": 8,
+            "items": [
+                3,
+                16,
+                15,
+                12,
+                4,
+                8,
+                9,
+                19
+            ],
+            "total": 39731.01
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 38,
+        "fields": {
+            "date": "2024-08-04",
+            "paymentTerms": 15,
+            "description": "Daughter must grow laugh pattern push no difference positive.",
+            "status": "paid",
+            "client": 43,
+            "items": [
+                10,
+                15,
+                1,
+                2,
+                16,
+                14,
+                7
+            ],
+            "total": 44337.08
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 39,
+        "fields": {
+            "date": "2024-08-19",
+            "paymentTerms": 60,
+            "description": "Memory someone receive realize another high indicate small rate.",
+            "status": "pending",
+            "client": 46,
+            "items": [
+                3,
+                20,
+                11,
+                5,
+                19,
+                16
+            ],
+            "total": 19241.13
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 40,
+        "fields": {
+            "date": "2024-07-27",
+            "paymentTerms": 60,
+            "description": "Actually edge per sit thank stop.",
+            "status": "draft",
+            "client": 36,
+            "items": [
+                11,
+                13,
+                17,
+                10,
+                15,
+                9,
+                18,
+                7
+            ],
+            "total": 60178.32
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 41,
+        "fields": {
+            "date": "2024-08-18",
+            "paymentTerms": 60,
+            "description": "National owner simply who family concern radio cost community message help investment news.",
+            "status": "draft",
+            "client": 42,
+            "items": [
+                18,
+                7,
+                14,
+                15,
+                8,
+                19,
+                6,
+                16
+            ],
+            "total": 41814.3
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 42,
+        "fields": {
+            "date": "2024-07-07",
+            "paymentTerms": 15,
+            "description": "Once effort form report choice child follow anything.",
+            "status": "draft",
+            "client": 21,
+            "items": [
+                11,
+                9,
+                12,
+                5,
+                16,
+                2
+            ],
+            "total": 28181.69
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 43,
+        "fields": {
+            "date": "2024-07-30",
+            "paymentTerms": 60,
+            "description": "Make of group six fish detail contain attention measure.",
+            "status": "pending",
+            "client": 28,
+            "items": [
+                12,
+                5,
+                18
+            ],
+            "total": 11503.03
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 44,
+        "fields": {
+            "date": "2024-08-21",
+            "paymentTerms": 60,
+            "description": "Mr begin determine degree forward guess despite sell most you statement wonder.",
+            "status": "pending",
+            "client": 22,
+            "items": [
+                4,
+                14,
+                12,
+                19,
+                2,
+                5,
+                10,
+                15
+            ],
+            "total": 40480.39
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 45,
+        "fields": {
+            "date": "2024-11-01",
+            "paymentTerms": 30,
+            "description": "Protect knowledge toward party perform where radio.",
+            "status": "draft",
+            "client": 14,
+            "items": [
+                16,
+                8,
+                4,
+                12
+            ],
+            "total": 16699.58
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 46,
+        "fields": {
+            "date": "2024-06-16",
+            "paymentTerms": 30,
+            "description": "Trouble war history music executive treat state heart sort knowledge.",
+            "status": "pending",
+            "client": 49,
+            "items": [
+                19,
+                8,
+                14,
+                1,
+                9
+            ],
+            "total": 28894.0
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 47,
+        "fields": {
+            "date": "2024-09-03",
+            "paymentTerms": 30,
+            "description": "Together court message way cold what Mrs account assume.",
+            "status": "draft",
+            "client": 49,
+            "items": [
+                11,
+                12,
+                1,
+                6,
+                5
+            ],
+            "total": 12953.02
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 48,
+        "fields": {
+            "date": "2024-07-11",
+            "paymentTerms": 30,
+            "description": "Structure day stock these scientist itself stage authority rather agency response.",
+            "status": "pending",
+            "client": 10,
+            "items": [
+                1,
+                3,
+                17,
+                7,
+                13,
+                18,
+                8,
+                6
+            ],
+            "total": 46072.19
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 49,
+        "fields": {
+            "date": "2024-06-02",
+            "paymentTerms": 15,
+            "description": "Available concern edge audience start treat imagine.",
+            "status": "paid",
+            "client": 21,
+            "items": [
+                20,
+                3,
+                2,
+                5,
+                6,
+                13,
+                10
+            ],
+            "total": 31043.33
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 50,
+        "fields": {
+            "date": "2024-07-22",
+            "paymentTerms": 30,
+            "description": "Identify first hope brother accept result as second animal summer group me face rate.",
+            "status": "draft",
+            "client": 29,
+            "items": [
+                14,
+                16,
+                15,
+                20,
+                9,
+                4,
+                13,
+                19
+            ],
+            "total": 35770.14
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 51,
+        "fields": {
+            "date": "2024-07-30",
+            "paymentTerms": 15,
+            "description": "Example unit high state air choose detail.",
+            "status": "paid",
+            "client": 19,
+            "items": [
+                19,
+                16,
+                17,
+                10,
+                2,
+                4,
+                7,
+                18
+            ],
+            "total": 51437.75
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 52,
+        "fields": {
+            "date": "2024-06-19",
+            "paymentTerms": 60,
+            "description": "Far plant fear thought whole term possible whatever action themselves center among.",
+            "status": "paid",
+            "client": 14,
+            "items": [
+                9,
+                10,
+                11,
+                4
+            ],
+            "total": 28708.43
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 53,
+        "fields": {
+            "date": "2024-09-28",
+            "paymentTerms": 60,
+            "description": "Hour natural be decide scientist rise deep town surface central contain pattern education.",
+            "status": "paid",
+            "client": 12,
+            "items": [
+                13,
+                18,
+                8,
+                17
+            ],
+            "total": 22225.12
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 54,
+        "fields": {
+            "date": "2024-08-06",
+            "paymentTerms": 30,
+            "description": "Provide note approach seem wrong nature popular available.",
+            "status": "pending",
+            "client": 5,
+            "items": [
+                2,
+                14,
+                1,
+                15,
+                3,
+                19
+            ],
+            "total": 25935.16
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 55,
+        "fields": {
+            "date": "2024-11-04",
+            "paymentTerms": 30,
+            "description": "Better rise maintain former campaign pretty beyond people too.",
+            "status": "pending",
+            "client": 26,
+            "items": [
+                14,
+                10,
+                4,
+                13,
+                1,
+                6,
+                3,
+                17
+            ],
+            "total": 45934.45
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 56,
+        "fields": {
+            "date": "2024-08-16",
+            "paymentTerms": 30,
+            "description": "Late pattern figure once not hair first into above east develop science.",
+            "status": "pending",
+            "client": 24,
+            "items": [
+                14,
+                4,
+                8
+            ],
+            "total": 17149.4
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 57,
+        "fields": {
+            "date": "2024-09-22",
+            "paymentTerms": 15,
+            "description": "Style care run there leg grow figure necessary compare.",
+            "status": "pending",
+            "client": 6,
+            "items": [
+                10,
+                11,
+                8,
+                19,
+                6,
+                2
+            ],
+            "total": 29103.17
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 58,
+        "fields": {
+            "date": "2024-07-30",
+            "paymentTerms": 30,
+            "description": "Success teach cause Mrs enjoy though baby.",
+            "status": "draft",
+            "client": 33,
+            "items": [
+                12,
+                20,
+                5,
+                8
+            ],
+            "total": 14772.35
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 59,
+        "fields": {
+            "date": "2024-11-04",
+            "paymentTerms": 30,
+            "description": "Support place spend often shoulder defense.",
+            "status": "pending",
+            "client": 12,
+            "items": [
+                5,
+                3,
+                6,
+                16,
+                15,
+                13,
+                10
+            ],
+            "total": 29279.28
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 60,
+        "fields": {
+            "date": "2024-09-02",
+            "paymentTerms": 30,
+            "description": "End thus music president chance hotel through operation tax card may bed hair.",
+            "status": "pending",
+            "client": 37,
+            "items": [
+                20,
+                11,
+                19,
+                5,
+                15,
+                2,
+                8,
+                14
+            ],
+            "total": 29937.17
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 61,
+        "fields": {
+            "date": "2024-06-01",
+            "paymentTerms": 30,
+            "description": "Summer southern pass coach method land condition we process.",
+            "status": "paid",
+            "client": 4,
+            "items": [
+                17,
+                3,
+                10,
+                15,
+                20
+            ],
+            "total": 31801.92
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 62,
+        "fields": {
+            "date": "2024-10-08",
+            "paymentTerms": 30,
+            "description": "Voice American seven discussion enough doctor protect military social hold truth thing.",
+            "status": "pending",
+            "client": 5,
+            "items": [
+                3,
+                17,
+                13,
+                15,
+                2,
+                8,
+                18,
+                10
+            ],
+            "total": 46938.11
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 63,
+        "fields": {
+            "date": "2024-09-02",
+            "paymentTerms": 15,
+            "description": "Billion why plant event score official now heavy her onto.",
+            "status": "draft",
+            "client": 31,
+            "items": [
+                5,
+                2,
+                15,
+                4,
+                11,
+                12,
+                19
+            ],
+            "total": 22842.61
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 64,
+        "fields": {
+            "date": "2024-08-04",
+            "paymentTerms": 30,
+            "description": "Edge win development image stage generation society thought according think key discover.",
+            "status": "pending",
+            "client": 16,
+            "items": [
+                15,
+                20,
+                17,
+                18,
+                6,
+                16,
+                19,
+                5
+            ],
+            "total": 23621.54
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 65,
+        "fields": {
+            "date": "2024-07-25",
+            "paymentTerms": 60,
+            "description": "Deep cost gun response brother discover specific result loss.",
+            "status": "paid",
+            "client": 39,
+            "items": [
+                11,
+                3,
+                20
+            ],
+            "total": 12957.4
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 66,
+        "fields": {
+            "date": "2024-11-24",
+            "paymentTerms": 30,
+            "description": "Decision claim street against amount of claim picture always occur argue election.",
+            "status": "pending",
+            "client": 19,
+            "items": [
+                20,
+                5,
+                11,
+                3,
+                19
+            ],
+            "total": 17126.13
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 67,
+        "fields": {
+            "date": "2024-11-09",
+            "paymentTerms": 60,
+            "description": "When out nor affect rest product exist beat last yeah test color.",
+            "status": "pending",
+            "client": 45,
+            "items": [
+                13,
+                5,
+                3,
+                10,
+                20,
+                11,
+                16,
+                6
+            ],
+            "total": 33177.8
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 68,
+        "fields": {
+            "date": "2024-07-20",
+            "paymentTerms": 15,
+            "description": "Central old should perhaps member cold rate two others attention her car admit.",
+            "status": "paid",
+            "client": 48,
+            "items": [
+                17,
+                3,
+                14,
+                20,
+                12,
+                1,
+                6,
+                5
+            ],
+            "total": 36989.94
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 69,
+        "fields": {
+            "date": "2024-11-26",
+            "paymentTerms": 15,
+            "description": "Range step painting concern top outside there mother sell behavior process top.",
+            "status": "pending",
+            "client": 50,
+            "items": [
+                7,
+                8,
+                5,
+                18,
+                3,
+                17
+            ],
+            "total": 41319.03
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 70,
+        "fields": {
+            "date": "2024-07-27",
+            "paymentTerms": 60,
+            "description": "To simple power miss have analysis.",
+            "status": "pending",
+            "client": 50,
+            "items": [
+                17,
+                2,
+                11,
+                5,
+                13,
+                3,
+                15
+            ],
+            "total": 30872.59
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 71,
+        "fields": {
+            "date": "2024-11-26",
+            "paymentTerms": 30,
+            "description": "Director sort smile high open scientist seven recent best care local.",
+            "status": "draft",
+            "client": 11,
+            "items": [
+                15,
+                2,
+                14,
+                12,
+                8,
+                16,
+                10,
+                5
+            ],
+            "total": 42025.44
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 72,
+        "fields": {
+            "date": "2024-10-12",
+            "paymentTerms": 60,
+            "description": "Exist theory impact country remember smile official.",
+            "status": "paid",
+            "client": 35,
+            "items": [
+                10,
+                16,
+                7,
+                12
+            ],
+            "total": 36144.01
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 73,
+        "fields": {
+            "date": "2024-11-06",
+            "paymentTerms": 60,
+            "description": "According pressure reach firm gun choice prepare effect talk interest hand every.",
+            "status": "draft",
+            "client": 30,
+            "items": [
+                13,
+                17,
+                19,
+                14,
+                6
+            ],
+            "total": 27439.81
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 74,
+        "fields": {
+            "date": "2024-11-20",
+            "paymentTerms": 60,
+            "description": "Including six lot have never effect fill general.",
+            "status": "pending",
+            "client": 17,
+            "items": [
+                16,
+                12,
+                18
+            ],
+            "total": 12788.75
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 75,
+        "fields": {
+            "date": "2024-11-20",
+            "paymentTerms": 15,
+            "description": "Talk process security land record class Democrat.",
+            "status": "draft",
+            "client": 8,
+            "items": [
+                3,
+                6,
+                9,
+                15,
+                5
+            ],
+            "total": 21653.52
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 76,
+        "fields": {
+            "date": "2024-07-20",
+            "paymentTerms": 15,
+            "description": "Song pass range appear home player source statement likely outside.",
+            "status": "paid",
+            "client": 29,
+            "items": [
+                1,
+                14,
+                2,
+                13,
+                12
+            ],
+            "total": 24824.79
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 77,
+        "fields": {
+            "date": "2024-11-05",
+            "paymentTerms": 15,
+            "description": "Enjoy he participant right us husband.",
+            "status": "draft",
+            "client": 15,
+            "items": [
+                11,
+                4,
+                20
+            ],
+            "total": 7968.09
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 78,
+        "fields": {
+            "date": "2024-08-26",
+            "paymentTerms": 15,
+            "description": "Represent our watch star policy keep cut prevent sound.",
+            "status": "pending",
+            "client": 19,
+            "items": [
+                5,
+                16,
+                15,
+                1,
+                3,
+                17
+            ],
+            "total": 21292.28
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 79,
+        "fields": {
+            "date": "2024-06-14",
+            "paymentTerms": 30,
+            "description": "Almost outside middle discuss college already dream a.",
+            "status": "pending",
+            "client": 47,
+            "items": [
+                17,
+                14,
+                4,
+                10,
+                8,
+                5,
+                2
+            ],
+            "total": 42748.11
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 80,
+        "fields": {
+            "date": "2024-07-08",
+            "paymentTerms": 30,
+            "description": "You sister good house only military say.",
+            "status": "draft",
+            "client": 40,
+            "items": [
+                3,
+                4,
+                16,
+                1,
+                8,
+                12
+            ],
+            "total": 24264.44
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 81,
+        "fields": {
+            "date": "2024-09-04",
+            "paymentTerms": 30,
+            "description": "Near risk next on girl spring difficult.",
+            "status": "draft",
+            "client": 40,
+            "items": [
+                8,
+                19,
+                14,
+                6,
+                3
+            ],
+            "total": 26610.42
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 82,
+        "fields": {
+            "date": "2024-06-10",
+            "paymentTerms": 30,
+            "description": "Upon offer end imagine blood authority family water sort what then.",
+            "status": "paid",
+            "client": 34,
+            "items": [
+                17,
+                20,
+                18,
+                1,
+                13,
+                14,
+                8
+            ],
+            "total": 33735.56
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 83,
+        "fields": {
+            "date": "2024-07-28",
+            "paymentTerms": 60,
+            "description": "Reason whom none show serious which learn leave only.",
+            "status": "pending",
+            "client": 17,
+            "items": [
+                1,
+                12,
+                3,
+                19,
+                8,
+                17,
+                11,
+                14
+            ],
+            "total": 45584.96
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 84,
+        "fields": {
+            "date": "2024-11-02",
+            "paymentTerms": 60,
+            "description": "Break attack plant yes quality discover firm western might act strategy eat.",
+            "status": "paid",
+            "client": 49,
+            "items": [
+                5,
+                2,
+                12,
+                11,
+                6
+            ],
+            "total": 16565.85
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 85,
+        "fields": {
+            "date": "2024-07-05",
+            "paymentTerms": 15,
+            "description": "Purpose start away use live government thus especially water raise travel.",
+            "status": "draft",
+            "client": 45,
+            "items": [
+                6,
+                5,
+                3,
+                15,
+                2,
+                19
+            ],
+            "total": 18146.5
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 86,
+        "fields": {
+            "date": "2024-06-25",
+            "paymentTerms": 60,
+            "description": "Dog drug enter director strong student green single.",
+            "status": "draft",
+            "client": 21,
+            "items": [
+                17,
+                13,
+                18,
+                16,
+                9
+            ],
+            "total": 29801.97
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 87,
+        "fields": {
+            "date": "2024-08-06",
+            "paymentTerms": 30,
+            "description": "Put professional pass share must amount lot.",
+            "status": "pending",
+            "client": 19,
+            "items": [
+                2,
+                11,
+                9,
+                4,
+                12
+            ],
+            "total": 27639.16
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 88,
+        "fields": {
+            "date": "2024-11-16",
+            "paymentTerms": 30,
+            "description": "Together thing off ever consumer share memory huge seek campaign moment institution.",
+            "status": "draft",
+            "client": 29,
+            "items": [
+                11,
+                6,
+                16,
+                18,
+                12,
+                15
+            ],
+            "total": 19394.93
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 89,
+        "fields": {
+            "date": "2024-07-27",
+            "paymentTerms": 60,
+            "description": "Maybe hour rather company with recently.",
+            "status": "paid",
+            "client": 47,
+            "items": [
+                3,
+                14,
+                6,
+                10,
+                11,
+                2
+            ],
+            "total": 37559.93
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 90,
+        "fields": {
+            "date": "2024-06-23",
+            "paymentTerms": 30,
+            "description": "Ready activity decision ok foot party employee nature down likely.",
+            "status": "pending",
+            "client": 20,
+            "items": [
+                20,
+                14,
+                6,
+                15,
+                12,
+                8
+            ],
+            "total": 26319.55
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 91,
+        "fields": {
+            "date": "2024-12-30",
+            "paymentTerms": 15,
+            "description": "Hand material decision red head take evidence conference capital office.",
+            "status": "pending",
+            "client": 28,
+            "items": [
+                2,
+                3,
+                13,
+                12,
+                6
+            ],
+            "total": 23597.91
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 92,
+        "fields": {
+            "date": "2024-08-12",
+            "paymentTerms": 60,
+            "description": "Result sound new task cultural son school.",
+            "status": "draft",
+            "client": 44,
+            "items": [
+                2,
+                5,
+                3,
+                8,
+                12,
+                6
+            ],
+            "total": 25322.06
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 93,
+        "fields": {
+            "date": "2024-11-23",
+            "paymentTerms": 60,
+            "description": "Computer matter yet support military result.",
+            "status": "draft",
+            "client": 39,
+            "items": [
+                15,
+                12,
+                19,
+                20
+            ],
+            "total": 13779.09
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 94,
+        "fields": {
+            "date": "2024-06-24",
+            "paymentTerms": 15,
+            "description": "Economy teach answer between clear democratic effect stuff benefit.",
+            "status": "paid",
+            "client": 34,
+            "items": [
+                13,
+                11,
+                9,
+                8,
+                4
+            ],
+            "total": 26288.58
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 95,
+        "fields": {
+            "date": "2024-12-17",
+            "paymentTerms": 30,
+            "description": "Guess night use election after building test white current.",
+            "status": "pending",
+            "client": 34,
+            "items": [
+                18,
+                4,
+                9,
+                20,
+                15,
+                19
+            ],
+            "total": 23464.53
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 96,
+        "fields": {
+            "date": "2024-07-28",
+            "paymentTerms": 60,
+            "description": "Company sister great pull maintain say threat high expert place certain cold.",
+            "status": "paid",
+            "client": 32,
+            "items": [
+                4,
+                5,
+                3,
+                15
+            ],
+            "total": 12289.91
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 97,
+        "fields": {
+            "date": "2024-11-17",
+            "paymentTerms": 60,
+            "description": "Piece occur support author class direction first fact environment popular even.",
+            "status": "pending",
+            "client": 6,
+            "items": [
+                11,
+                12,
+                3,
+                10,
+                17,
+                14,
+                18,
+                19
+            ],
+            "total": 55769.56
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 98,
+        "fields": {
+            "date": "2024-07-22",
+            "paymentTerms": 30,
+            "description": "Security minute late cold take by doctor edge season see.",
+            "status": "draft",
+            "client": 12,
+            "items": [
+                17,
+                8,
+                4,
+                7,
+                5
+            ],
+            "total": 32667.55
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 99,
+        "fields": {
+            "date": "2024-08-11",
+            "paymentTerms": 60,
+            "description": "However believe view list approach side model you.",
+            "status": "pending",
+            "client": 24,
+            "items": [
+                19,
+                12,
+                15,
+                5,
+                3,
+                2,
+                17
+            ],
+            "total": 33141.14
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 100,
+        "fields": {
+            "date": "2024-08-06",
+            "paymentTerms": 60,
+            "description": "Peace base use hope director scene kitchen call money.",
+            "status": "pending",
+            "client": 31,
+            "items": [
+                14,
+                20,
+                3,
+                5,
+                11,
+                16,
+                2
+            ],
+            "total": 29264.71
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 101,
+        "fields": {
+            "date": "2024-08-09",
+            "paymentTerms": 15,
+            "description": "Along ground trip ten level that.",
+            "status": "draft",
+            "client": 23,
+            "items": [
+                18,
+                19,
+                6,
+                5
+            ],
+            "total": 8963.16
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 102,
+        "fields": {
+            "date": "2024-11-14",
+            "paymentTerms": 15,
+            "description": "Know wide recently computer our piece player nor model police finally girl music.",
+            "status": "paid",
+            "client": 34,
+            "items": [
+                10,
+                6,
+                19,
+                11
+            ],
+            "total": 20145.29
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 103,
+        "fields": {
+            "date": "2024-09-05",
+            "paymentTerms": 60,
+            "description": "Film include choose action model serve carry expert movement reach man.",
+            "status": "pending",
+            "client": 34,
+            "items": [
+                3,
+                9,
+                7,
+                19,
+                5
+            ],
+            "total": 37342.84
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 104,
+        "fields": {
+            "date": "2024-06-24",
+            "paymentTerms": 15,
+            "description": "Across involve fall discuss account health in night house.",
+            "status": "draft",
+            "client": 6,
+            "items": [
+                6,
+                19,
+                5,
+                20,
+                11,
+                14,
+                10
+            ],
+            "total": 32311.21
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 105,
+        "fields": {
+            "date": "2024-08-08",
+            "paymentTerms": 30,
+            "description": "Stock determine bad personal might son party really even possible.",
+            "status": "paid",
+            "client": 3,
+            "items": [
+                19,
+                9,
+                7,
+                14,
+                1,
+                8,
+                11,
+                20
+            ],
+            "total": 49610.29
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 106,
+        "fields": {
+            "date": "2024-09-26",
+            "paymentTerms": 15,
+            "description": "Include table consumer face PM pay evening performance could.",
+            "status": "paid",
+            "client": 16,
+            "items": [
+                13,
+                10,
+                15,
+                3,
+                2,
+                17,
+                8,
+                7
+            ],
+            "total": 58425.89
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 107,
+        "fields": {
+            "date": "2024-07-01",
+            "paymentTerms": 30,
+            "description": "Anyone movement control bill especially resource road.",
+            "status": "pending",
+            "client": 39,
+            "items": [
+                11,
+                20,
+                12,
+                13
+            ],
+            "total": 16854.3
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 108,
+        "fields": {
+            "date": "2024-07-12",
+            "paymentTerms": 30,
+            "description": "Character management game find son your less.",
+            "status": "draft",
+            "client": 36,
+            "items": [
+                11,
+                8,
+                15
+            ],
+            "total": 10645.17
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 109,
+        "fields": {
+            "date": "2024-11-02",
+            "paymentTerms": 30,
+            "description": "Bag seek certainly entire hotel myself consider time economic high.",
+            "status": "draft",
+            "client": 10,
+            "items": [
+                2,
+                10,
+                13
+            ],
+            "total": 19930.49
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 110,
+        "fields": {
+            "date": "2024-12-01",
+            "paymentTerms": 30,
+            "description": "Window research his window east yes current.",
+            "status": "paid",
+            "client": 11,
+            "items": [
+                19,
+                11,
+                7,
+                6,
+                16
+            ],
+            "total": 25542.76
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 111,
+        "fields": {
+            "date": "2024-07-05",
+            "paymentTerms": 30,
+            "description": "Program decade home which view city rock seat near business loss federal.",
+            "status": "draft",
+            "client": 20,
+            "items": [
+                1,
+                3,
+                13,
+                17,
+                15,
+                4
+            ],
+            "total": 25026.13
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 112,
+        "fields": {
+            "date": "2024-08-18",
+            "paymentTerms": 30,
+            "description": "Tell design both plan foot cold.",
+            "status": "pending",
+            "client": 4,
+            "items": [
+                16,
+                20,
+                10,
+                1,
+                4
+            ],
+            "total": 18318.27
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 113,
+        "fields": {
+            "date": "2024-09-14",
+            "paymentTerms": 15,
+            "description": "Build smile across among situation little other he become citizen before peace us.",
+            "status": "paid",
+            "client": 24,
+            "items": [
+                12,
+                2,
+                13,
+                19,
+                7,
+                6
+            ],
+            "total": 34696.25
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 114,
+        "fields": {
+            "date": "2024-08-03",
+            "paymentTerms": 30,
+            "description": "Green child movie blue maintain first.",
+            "status": "pending",
+            "client": 33,
+            "items": [
+                18,
+                9,
+                4,
+                5,
+                20,
+                7
+            ],
+            "total": 34436.49
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 115,
+        "fields": {
+            "date": "2024-06-28",
+            "paymentTerms": 15,
+            "description": "South just cover ready group care together magazine join far.",
+            "status": "draft",
+            "client": 24,
+            "items": [
+                7,
+                17,
+                13,
+                19
+            ],
+            "total": 31881.1
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 116,
+        "fields": {
+            "date": "2024-08-24",
+            "paymentTerms": 60,
+            "description": "Note myself food life test out team civil.",
+            "status": "paid",
+            "client": 46,
+            "items": [
+                16,
+                17,
+                15,
+                5,
+                19
+            ],
+            "total": 17066.87
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 117,
+        "fields": {
+            "date": "2024-09-26",
+            "paymentTerms": 30,
+            "description": "Last standard must law simply media safe.",
+            "status": "draft",
+            "client": 11,
+            "items": [
+                20,
+                10,
+                11,
+                17,
+                16,
+                12
+            ],
+            "total": 35675.72
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 118,
+        "fields": {
+            "date": "2024-08-01",
+            "paymentTerms": 60,
+            "description": "Task simply draw return probably much hold model marriage necessary party follow political.",
+            "status": "pending",
+            "client": 24,
+            "items": [
+                4,
+                14,
+                10,
+                1,
+                16
+            ],
+            "total": 26134.43
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 119,
+        "fields": {
+            "date": "2024-09-06",
+            "paymentTerms": 60,
+            "description": "Model at strong candidate them dark magazine.",
+            "status": "pending",
+            "client": 37,
+            "items": [
+                2,
+                19,
+                16,
+                6
+            ],
+            "total": 10373.34
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 120,
+        "fields": {
+            "date": "2024-08-05",
+            "paymentTerms": 30,
+            "description": "Number student price moment red eight.",
+            "status": "draft",
+            "client": 50,
+            "items": [
+                5,
+                8,
+                2,
+                4,
+                7,
+                1
+            ],
+            "total": 27512.66
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 121,
+        "fields": {
+            "date": "2024-07-18",
+            "paymentTerms": 30,
+            "description": "Paper audience us decade man threat bag song.",
+            "status": "pending",
+            "client": 27,
+            "items": [
+                7,
+                14,
+                17,
+                16,
+                2,
+                12,
+                3,
+                9
+            ],
+            "total": 64779.04
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 122,
+        "fields": {
+            "date": "2024-10-03",
+            "paymentTerms": 60,
+            "description": "Newspaper voice indeed hard remain statement entire American audience fight.",
+            "status": "pending",
+            "client": 31,
+            "items": [
+                13,
+                11,
+                6,
+                15,
+                19,
+                9,
+                18
+            ],
+            "total": 28517.28
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 123,
+        "fields": {
+            "date": "2024-11-11",
+            "paymentTerms": 30,
+            "description": "Best rise mother country moment eat personal condition see indeed black police.",
+            "status": "paid",
+            "client": 42,
+            "items": [
+                9,
+                16,
+                7,
+                8,
+                20,
+                19,
+                5,
+                4
+            ],
+            "total": 41400.02
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 124,
+        "fields": {
+            "date": "2024-09-18",
+            "paymentTerms": 60,
+            "description": "Reflect interview bit society nearly measure price move outside value total.",
+            "status": "paid",
+            "client": 46,
+            "items": [
+                16,
+                11,
+                20,
+                12
+            ],
+            "total": 14692.92
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 125,
+        "fields": {
+            "date": "2024-11-27",
+            "paymentTerms": 30,
+            "description": "Suddenly include plan step food drive nation heart nearly season.",
+            "status": "paid",
+            "client": 19,
+            "items": [
+                19,
+                18,
+                13
+            ],
+            "total": 11278.0
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 126,
+        "fields": {
+            "date": "2024-08-18",
+            "paymentTerms": 30,
+            "description": "Language however risk work other military year few feel develop talk.",
+            "status": "pending",
+            "client": 50,
+            "items": [
+                10,
+                2,
+                20,
+                3
+            ],
+            "total": 24805.41
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 127,
+        "fields": {
+            "date": "2024-11-02",
+            "paymentTerms": 15,
+            "description": "Try memory number occur behind leave choose enter threat.",
+            "status": "draft",
+            "client": 17,
+            "items": [
+                16,
+                7,
+                19,
+                9,
+                17,
+                3,
+                2,
+                10
+            ],
+            "total": 63397.99
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 128,
+        "fields": {
+            "date": "2024-09-13",
+            "paymentTerms": 60,
+            "description": "Eight feel now notice design baby foot lot.",
+            "status": "draft",
+            "client": 4,
+            "items": [
+                17,
+                8,
+                19,
+                2,
+                4,
+                7,
+                6,
+                12
+            ],
+            "total": 47108.19
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 129,
+        "fields": {
+            "date": "2024-08-24",
+            "paymentTerms": 60,
+            "description": "Standard believe politics also space high sister two free they its us building.",
+            "status": "draft",
+            "client": 1,
+            "items": [
+                6,
+                14,
+                16,
+                18,
+                7,
+                13,
+                5
+            ],
+            "total": 36741.44
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 130,
+        "fields": {
+            "date": "2024-11-12",
+            "paymentTerms": 15,
+            "description": "Up plant place approach modern floor north force recently check purpose young wife.",
+            "status": "draft",
+            "client": 50,
+            "items": [
+                19,
+                8,
+                18
+            ],
+            "total": 12172.87
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 131,
+        "fields": {
+            "date": "2024-11-29",
+            "paymentTerms": 30,
+            "description": "Measure develop face hour car bar number any human be maybe similar candidate.",
+            "status": "draft",
+            "client": 27,
+            "items": [
+                2,
+                13,
+                16,
+                6
+            ],
+            "total": 11310.27
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 132,
+        "fields": {
+            "date": "2024-12-07",
+            "paymentTerms": 60,
+            "description": "Nice maintain present cultural pattern save east author since food under become.",
+            "status": "pending",
+            "client": 1,
+            "items": [
+                19,
+                4,
+                11,
+                10,
+                15
+            ],
+            "total": 23082.6
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 133,
+        "fields": {
+            "date": "2024-11-21",
+            "paymentTerms": 30,
+            "description": "Half couple general pretty show college glass start sort perhaps key.",
+            "status": "draft",
+            "client": 32,
+            "items": [
+                17,
+                15,
+                9,
+                7
+            ],
+            "total": 36566.19
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 134,
+        "fields": {
+            "date": "2024-10-12",
+            "paymentTerms": 15,
+            "description": "Rate choose rock beat science drug per challenge.",
+            "status": "draft",
+            "client": 47,
+            "items": [
+                9,
+                6,
+                1,
+                11,
+                10,
+                16
+            ],
+            "total": 29727.74
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 135,
+        "fields": {
+            "date": "2024-07-14",
+            "paymentTerms": 15,
+            "description": "Gas sound figure likely forward science.",
+            "status": "paid",
+            "client": 40,
+            "items": [
+                13,
+                14,
+                17,
+                11,
+                3,
+                7,
+                18,
+                2
+            ],
+            "total": 56764.01
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 136,
+        "fields": {
+            "date": "2024-08-11",
+            "paymentTerms": 30,
+            "description": "National seek nature performance yeah reason property heavy.",
+            "status": "paid",
+            "client": 21,
+            "items": [
+                1,
+                9,
+                13,
+                8
+            ],
+            "total": 20254.53
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 137,
+        "fields": {
+            "date": "2024-07-26",
+            "paymentTerms": 30,
+            "description": "Eight art customer recent even let.",
+            "status": "draft",
+            "client": 20,
+            "items": [
+                19,
+                1,
+                9,
+                12,
+                8,
+                20,
+                11
+            ],
+            "total": 31895.52
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 138,
+        "fields": {
+            "date": "2024-12-01",
+            "paymentTerms": 30,
+            "description": "Home even system process ten affect.",
+            "status": "draft",
+            "client": 26,
+            "items": [
+                17,
+                10,
+                4,
+                19,
+                12,
+                20,
+                18,
+                14
+            ],
+            "total": 48734.39
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 139,
+        "fields": {
+            "date": "2024-11-19",
+            "paymentTerms": 15,
+            "description": "Woman meet report tough machine others because current.",
+            "status": "pending",
+            "client": 30,
+            "items": [
+                20,
+                12,
+                14,
+                16,
+                7,
+                13,
+                4,
+                11
+            ],
+            "total": 46097.4
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 140,
+        "fields": {
+            "date": "2024-07-23",
+            "paymentTerms": 30,
+            "description": "Unit again easy morning four hotel church get goal personal door within may.",
+            "status": "pending",
+            "client": 29,
+            "items": [
+                12,
+                3,
+                4,
+                2,
+                7,
+                10,
+                9
+            ],
+            "total": 58241.55
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 141,
+        "fields": {
+            "date": "2024-07-04",
+            "paymentTerms": 60,
+            "description": "Election hit yourself wrong want we difficult game hotel case role minute question their.",
+            "status": "paid",
+            "client": 29,
+            "items": [
+                7,
+                19,
+                16
+            ],
+            "total": 20604.4
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 142,
+        "fields": {
+            "date": "2024-09-12",
+            "paymentTerms": 30,
+            "description": "Drive check wife travel forget my deal catch must son television.",
+            "status": "pending",
+            "client": 4,
+            "items": [
+                5,
+                17,
+                14,
+                15,
+                2,
+                9
+            ],
+            "total": 35608.55
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 143,
+        "fields": {
+            "date": "2024-08-16",
+            "paymentTerms": 15,
+            "description": "Travel involve training show prevent north citizen attack mouth rest contain style.",
+            "status": "pending",
+            "client": 2,
+            "items": [
+                9,
+                1,
+                7,
+                3,
+                2,
+                18
+            ],
+            "total": 40796.71
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 144,
+        "fields": {
+            "date": "2024-08-08",
+            "paymentTerms": 15,
+            "description": "She they increase in kitchen value.",
+            "status": "pending",
+            "client": 4,
+            "items": [
+                16,
+                2,
+                10
+            ],
+            "total": 17769.11
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 145,
+        "fields": {
+            "date": "2024-12-14",
+            "paymentTerms": 60,
+            "description": "Single blood continue several partner environment note.",
+            "status": "draft",
+            "client": 47,
+            "items": [
+                14,
+                12,
+                13,
+                15,
+                18,
+                7,
+                2,
+                11
+            ],
+            "total": 48937.03
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 146,
+        "fields": {
+            "date": "2024-11-12",
+            "paymentTerms": 15,
+            "description": "Discussion reach grow read live maybe painting Republican hear system man case cover.",
+            "status": "draft",
+            "client": 42,
+            "items": [
+                4,
+                6,
+                18,
+                13,
+                5
+            ],
+            "total": 12301.84
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 147,
+        "fields": {
+            "date": "2024-08-02",
+            "paymentTerms": 30,
+            "description": "Share address establish including score write serious at until worry term.",
+            "status": "draft",
+            "client": 49,
+            "items": [
+                10,
+                15,
+                18
+            ],
+            "total": 17197.47
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 148,
+        "fields": {
+            "date": "2024-11-24",
+            "paymentTerms": 30,
+            "description": "Term thought into simply part station result hour voice occur.",
+            "status": "pending",
+            "client": 16,
+            "items": [
+                12,
+                5,
+                9,
+                7,
+                4,
+                1
+            ],
+            "total": 36199.46
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 149,
+        "fields": {
+            "date": "2024-07-27",
+            "paymentTerms": 15,
+            "description": "Political region although body lead there there early Mrs worker always hold.",
+            "status": "paid",
+            "client": 50,
+            "items": [
+                8,
+                7,
+                3
+            ],
+            "total": 27712.26
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 150,
+        "fields": {
+            "date": "2024-11-03",
+            "paymentTerms": 15,
+            "description": "Fact huge fight still leave institution party approach.",
+            "status": "draft",
+            "client": 39,
+            "items": [
+                2,
+                8,
+                20,
+                13,
+                15,
+                4,
+                9,
+                16
+            ],
+            "total": 31812.17
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 151,
+        "fields": {
+            "date": "2024-08-26",
+            "paymentTerms": 15,
+            "description": "Less position bed may conference one thus.",
+            "status": "pending",
+            "client": 33,
+            "items": [
+                8,
+                19,
+                11,
+                18,
+                20
+            ],
+            "total": 17739.21
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 152,
+        "fields": {
+            "date": "2024-09-27",
+            "paymentTerms": 60,
+            "description": "Hotel food agent law to time think.",
+            "status": "pending",
+            "client": 34,
+            "items": [
+                14,
+                10,
+                9,
+                2
+            ],
+            "total": 35863.61
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 153,
+        "fields": {
+            "date": "2024-11-05",
+            "paymentTerms": 30,
+            "description": "Food possible represent clearly run before relationship plant be.",
+            "status": "pending",
+            "client": 12,
+            "items": [
+                14,
+                18,
+                16,
+                2,
+                12,
+                11,
+                15,
+                7
+            ],
+            "total": 46775.65
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 154,
+        "fields": {
+            "date": "2024-11-19",
+            "paymentTerms": 30,
+            "description": "Partner civil nearly analysis color friend the television class certain shoulder anything.",
+            "status": "pending",
+            "client": 27,
+            "items": [
+                5,
+                10,
+                13,
+                6,
+                16,
+                4
+            ],
+            "total": 22622.15
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 155,
+        "fields": {
+            "date": "2024-07-15",
+            "paymentTerms": 15,
+            "description": "Role which eye Congress together whether about she activity.",
+            "status": "paid",
+            "client": 10,
+            "items": [
+                2,
+                18,
+                14,
+                19,
+                5,
+                7
+            ],
+            "total": 36343.88
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 156,
+        "fields": {
+            "date": "2024-09-25",
+            "paymentTerms": 15,
+            "description": "Myself accept third down open little improve bag outside each natural people.",
+            "status": "draft",
+            "client": 42,
+            "items": [
+                15,
+                12,
+                3
+            ],
+            "total": 16070.46
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 157,
+        "fields": {
+            "date": "2024-07-28",
+            "paymentTerms": 30,
+            "description": "Any challenge president already take project study fear.",
+            "status": "paid",
+            "client": 18,
+            "items": [
+                20,
+                2,
+                3,
+                7,
+                17,
+                8
+            ],
+            "total": 42374.45
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 158,
+        "fields": {
+            "date": "2024-10-05",
+            "paymentTerms": 60,
+            "description": "Board year claim expect produce record.",
+            "status": "draft",
+            "client": 1,
+            "items": [
+                7,
+                4,
+                16,
+                8
+            ],
+            "total": 24837.95
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 159,
+        "fields": {
+            "date": "2024-09-28",
+            "paymentTerms": 60,
+            "description": "Concern lay often use behavior federal happy her attack interview nearly fall care.",
+            "status": "paid",
+            "client": 26,
+            "items": [
+                18,
+                11,
+                10,
+                13
+            ],
+            "total": 23612.13
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 160,
+        "fields": {
+            "date": "2024-11-14",
+            "paymentTerms": 60,
+            "description": "Money modern receive partner body role pick would low read.",
+            "status": "paid",
+            "client": 20,
+            "items": [
+                12,
+                17,
+                16,
+                15,
+                4
+            ],
+            "total": 22311.47
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 161,
+        "fields": {
+            "date": "2024-09-14",
+            "paymentTerms": 15,
+            "description": "Participant first moment yet government can none mind place manage conference.",
+            "status": "pending",
+            "client": 49,
+            "items": [
+                7,
+                12,
+                11,
+                14,
+                2
+            ],
+            "total": 39330.66
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 162,
+        "fields": {
+            "date": "2024-08-30",
+            "paymentTerms": 15,
+            "description": "Remember without ability agency personal brother summer son.",
+            "status": "paid",
+            "client": 10,
+            "items": [
+                9,
+                18,
+                14
+            ],
+            "total": 23871.67
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 163,
+        "fields": {
+            "date": "2024-11-21",
+            "paymentTerms": 60,
+            "description": "Animal glass south defense political real effort attack feel nearly short.",
+            "status": "pending",
+            "client": 15,
+            "items": [
+                19,
+                8,
+                16,
+                11,
+                9,
+                13
+            ],
+            "total": 29341.28
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 164,
+        "fields": {
+            "date": "2024-09-06",
+            "paymentTerms": 15,
+            "description": "Game right pattern ahead compare form full public trouble something.",
+            "status": "pending",
+            "client": 48,
+            "items": [
+                15,
+                6,
+                12,
+                19,
+                5,
+                18
+            ],
+            "total": 17642.56
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 165,
+        "fields": {
+            "date": "2024-11-07",
+            "paymentTerms": 60,
+            "description": "Choice leave tend time leg sport until argue minute north question new.",
+            "status": "draft",
+            "client": 42,
+            "items": [
+                17,
+                2,
+                3
+            ],
+            "total": 20293.01
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 166,
+        "fields": {
+            "date": "2024-07-01",
+            "paymentTerms": 15,
+            "description": "Officer forward trouble somebody at chance subject fund.",
+            "status": "draft",
+            "client": 49,
+            "items": [
+                14,
+                5,
+                8
+            ],
+            "total": 15576.93
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 167,
+        "fields": {
+            "date": "2024-09-19",
+            "paymentTerms": 30,
+            "description": "Move coach paper cost bring site final tax report even beautiful theory he stop.",
+            "status": "draft",
+            "client": 14,
+            "items": [
+                15,
+                12,
+                2,
+                16,
+                17,
+                1,
+                20
+            ],
+            "total": 25630.39
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 168,
+        "fields": {
+            "date": "2024-07-15",
+            "paymentTerms": 15,
+            "description": "Modern company hear also dark begin media sometimes.",
+            "status": "pending",
+            "client": 2,
+            "items": [
+                9,
+                18,
+                10,
+                1,
+                14,
+                13,
+                3
+            ],
+            "total": 47580.39
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 169,
+        "fields": {
+            "date": "2024-08-25",
+            "paymentTerms": 30,
+            "description": "Couple type run model simply century the.",
+            "status": "draft",
+            "client": 10,
+            "items": [
+                7,
+                17,
+                9,
+                12
+            ],
+            "total": 41909.95
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 170,
+        "fields": {
+            "date": "2024-11-26",
+            "paymentTerms": 15,
+            "description": "Day already hold ten break financial analysis.",
+            "status": "pending",
+            "client": 24,
+            "items": [
+                15,
+                19,
+                8,
+                18,
+                10,
+                11
+            ],
+            "total": 29514.27
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 171,
+        "fields": {
+            "date": "2024-08-29",
+            "paymentTerms": 30,
+            "description": "Four threat billion she seat against serve.",
+            "status": "draft",
+            "client": 42,
+            "items": [
+                3,
+                13,
+                19
+            ],
+            "total": 15006.89
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 172,
+        "fields": {
+            "date": "2024-11-11",
+            "paymentTerms": 60,
+            "description": "Customer expert mother significant provide evening church boy when nice.",
+            "status": "paid",
+            "client": 41,
+            "items": [
+                6,
+                3,
+                16
+            ],
+            "total": 10638.32
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 173,
+        "fields": {
+            "date": "2024-07-05",
+            "paymentTerms": 60,
+            "description": "My near even wall sound off commercial find.",
+            "status": "pending",
+            "client": 37,
+            "items": [
+                17,
+                2,
+                8
+            ],
+            "total": 18073.2
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 174,
+        "fields": {
+            "date": "2024-11-17",
+            "paymentTerms": 30,
+            "description": "Kitchen candidate likely push black approach interview condition other or structure record.",
+            "status": "draft",
+            "client": 31,
+            "items": [
+                2,
+                3,
+                9,
+                20,
+                6
+            ],
+            "total": 24703.29
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 175,
+        "fields": {
+            "date": "2024-09-18",
+            "paymentTerms": 30,
+            "description": "Forward cup serve speak bad type share nothing behavior.",
+            "status": "pending",
+            "client": 14,
+            "items": [
+                5,
+                13,
+                3,
+                10,
+                6,
+                17,
+                4
+            ],
+            "total": 37013.53
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 176,
+        "fields": {
+            "date": "2024-07-23",
+            "paymentTerms": 30,
+            "description": "Lay range report let discuss difference technology.",
+            "status": "draft",
+            "client": 35,
+            "items": [
+                13,
+                5,
+                3,
+                17,
+                12
+            ],
+            "total": 28623.62
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 177,
+        "fields": {
+            "date": "2024-11-13",
+            "paymentTerms": 30,
+            "description": "Hot record professor small think law air little goal leave.",
+            "status": "paid",
+            "client": 5,
+            "items": [
+                20,
+                13,
+                11,
+                1,
+                9
+            ],
+            "total": 20649.62
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 178,
+        "fields": {
+            "date": "2024-07-09",
+            "paymentTerms": 60,
+            "description": "Should page camera bill stage someone for power society.",
+            "status": "paid",
+            "client": 15,
+            "items": [
+                18,
+                13,
+                14,
+                6,
+                19
+            ],
+            "total": 21986.66
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 179,
+        "fields": {
+            "date": "2024-07-26",
+            "paymentTerms": 30,
+            "description": "Husband including per nature wind himself future sport opportunity six itself.",
+            "status": "paid",
+            "client": 16,
+            "items": [
+                3,
+                20,
+                9,
+                5,
+                13,
+                12,
+                16,
+                11
+            ],
+            "total": 37822.74
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 180,
+        "fields": {
+            "date": "2024-08-17",
+            "paymentTerms": 30,
+            "description": "Reason community prove school Republican student boy other foot best knowledge final.",
+            "status": "draft",
+            "client": 24,
+            "items": [
+                3,
+                1,
+                10
+            ],
+            "total": 19432.34
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 181,
+        "fields": {
+            "date": "2024-09-20",
+            "paymentTerms": 60,
+            "description": "Our rate others star force population.",
+            "status": "paid",
+            "client": 9,
+            "items": [
+                6,
+                14,
+                15
+            ],
+            "total": 12376.48
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 182,
+        "fields": {
+            "date": "2024-07-03",
+            "paymentTerms": 60,
+            "description": "Design catch oil sense special serious produce.",
+            "status": "paid",
+            "client": 7,
+            "items": [
+                3,
+                12,
+                18
+            ],
+            "total": 18064.81
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 183,
+        "fields": {
+            "date": "2024-11-22",
+            "paymentTerms": 60,
+            "description": "Factor past language day theory feel some quickly truth view response trip.",
+            "status": "pending",
+            "client": 25,
+            "items": [
+                10,
+                14,
+                13
+            ],
+            "total": 25720.26
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 184,
+        "fields": {
+            "date": "2024-08-05",
+            "paymentTerms": 15,
+            "description": "Account worry identify camera family hard nature apply reflect star grow technology tend.",
+            "status": "draft",
+            "client": 16,
+            "items": [
+                17,
+                6,
+                13,
+                19,
+                5,
+                16,
+                15
+            ],
+            "total": 22475.51
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 185,
+        "fields": {
+            "date": "2024-08-12",
+            "paymentTerms": 15,
+            "description": "Reduce hour fish him high nation production little could his under.",
+            "status": "pending",
+            "client": 11,
+            "items": [
+                9,
+                14,
+                10,
+                16,
+                3,
+                6
+            ],
+            "total": 42715.3
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 186,
+        "fields": {
+            "date": "2024-06-21",
+            "paymentTerms": 30,
+            "description": "Eye their by activity possible century those.",
+            "status": "paid",
+            "client": 41,
+            "items": [
+                20,
+                7,
+                15,
+                4,
+                5,
+                16
+            ],
+            "total": 23924.04
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 187,
+        "fields": {
+            "date": "2024-08-22",
+            "paymentTerms": 60,
+            "description": "Be politics indeed lay smile page international.",
+            "status": "draft",
+            "client": 40,
+            "items": [
+                11,
+                15,
+                20,
+                14,
+                5,
+                16
+            ],
+            "total": 19754.84
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 188,
+        "fields": {
+            "date": "2024-12-09",
+            "paymentTerms": 15,
+            "description": "Meeting need last green control painting official suggest door maybe improve.",
+            "status": "paid",
+            "client": 31,
+            "items": [
+                6,
+                13,
+                11,
+                10,
+                16
+            ],
+            "total": 23197.22
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 189,
+        "fields": {
+            "date": "2024-10-27",
+            "paymentTerms": 60,
+            "description": "Happen within nothing relate both loss real center rule worker worker single let.",
+            "status": "draft",
+            "client": 25,
+            "items": [
+                13,
+                12,
+                4,
+                7,
+                6
+            ],
+            "total": 29971.92
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 190,
+        "fields": {
+            "date": "2024-09-04",
+            "paymentTerms": 60,
+            "description": "Three because line score whether back plant something fine apply gas sing.",
+            "status": "paid",
+            "client": 47,
+            "items": [
+                7,
+                15,
+                10,
+                3,
+                14,
+                11
+            ],
+            "total": 49458.81
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 191,
+        "fields": {
+            "date": "2024-12-23",
+            "paymentTerms": 30,
+            "description": "Mention light safe inside whether sometimes eye along type see risk.",
+            "status": "pending",
+            "client": 16,
+            "items": [
+                5,
+                14,
+                13,
+                3,
+                15
+            ],
+            "total": 23740.94
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 192,
+        "fields": {
+            "date": "2024-09-28",
+            "paymentTerms": 60,
+            "description": "Article list college appear wrong speak person expert bar.",
+            "status": "draft",
+            "client": 26,
+            "items": [
+                17,
+                14,
+                18,
+                2,
+                12,
+                16,
+                13
+            ],
+            "total": 39543.48
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 193,
+        "fields": {
+            "date": "2024-12-25",
+            "paymentTerms": 30,
+            "description": "Surface everyone car exactly tax add.",
+            "status": "paid",
+            "client": 7,
+            "items": [
+                12,
+                6,
+                2,
+                13
+            ],
+            "total": 16206.85
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 194,
+        "fields": {
+            "date": "2024-09-06",
+            "paymentTerms": 60,
+            "description": "Company option character land space end red machine son television garden base certain.",
+            "status": "pending",
+            "client": 7,
+            "items": [
+                4,
+                9,
+                8
+            ],
+            "total": 18206.1
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 195,
+        "fields": {
+            "date": "2024-09-08",
+            "paymentTerms": 60,
+            "description": "Sell include himself produce rise cold official success approach enough standard apply.",
+            "status": "draft",
+            "client": 38,
+            "items": [
+                19,
+                8,
+                15,
+                12,
+                13,
+                20,
+                16,
+                11
+            ],
+            "total": 29147.82
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 196,
+        "fields": {
+            "date": "2024-08-23",
+            "paymentTerms": 15,
+            "description": "Live live way two do raise hope enjoy most itself eye.",
+            "status": "draft",
+            "client": 23,
+            "items": [
+                16,
+                4,
+                10
+            ],
+            "total": 16384.23
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 197,
+        "fields": {
+            "date": "2024-11-22",
+            "paymentTerms": 60,
+            "description": "Question which raise American truth PM what it truth teach.",
+            "status": "paid",
+            "client": 47,
+            "items": [
+                12,
+                10,
+                11,
+                15
+            ],
+            "total": 24352.98
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 198,
+        "fields": {
+            "date": "2024-06-17",
+            "paymentTerms": 60,
+            "description": "Environment better pressure hospital significant see same open crime.",
+            "status": "draft",
+            "client": 23,
+            "items": [
+                4,
+                15,
+                19,
+                11,
+                3,
+                5
+            ],
+            "total": 19435.46
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 199,
+        "fields": {
+            "date": "2024-09-17",
+            "paymentTerms": 30,
+            "description": "Finish action across attack in moment rate goal.",
+            "status": "pending",
+            "client": 2,
+            "items": [
+                4,
+                6,
+                8,
+                17,
+                19
+            ],
+            "total": 21160.03
+        }
+    },
+    {
+        "model": "invoices.invoice",
+        "pk": 200,
+        "fields": {
+            "date": "2024-06-14",
+            "paymentTerms": 60,
+            "description": "Cover agency begin voice prevent structure wear point remain.",
+            "status": "draft",
+            "client": 28,
+            "items": [
+                8,
+                13,
+                6,
+                18,
+                14,
+                7
+            ],
+            "total": 38968.41
+        }
+    }
+]
